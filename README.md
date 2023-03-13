@@ -1,7 +1,6 @@
 # kvsparser
 
-[AWS Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/?amazon-kinesis-video-streams-resources-blog.sort-by=item.additionalFields.createdDate&amazon-kinesis-video-streams-resources-blog.sort-order=desc) 
-consumer for parsing real-time video.
+A Python module for parsing real-time [AWS Kinesis Video Streams.](https://aws.amazon.com/kinesis/video-streams/?amazon-kinesis-video-streams-resources-blog.sort-by=item.additionalFields.createdDate&amazon-kinesis-video-streams-resources-blog.sort-order=desc)
 
 ## Usage
 
@@ -9,7 +8,7 @@ consumer for parsing real-time video.
 from kvsparser import Parser
 ...
 for fragment in Parser(media):
-  print(fragment.__class__, "Frames", len(fragment.images), "Tags", fragment.tags)```
+  print(fragment.__class__, "Frames", len(fragment.images), "Tags", fragment.tags)
 ```
 
 ### kvsparser.Parser(media)
