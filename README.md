@@ -34,8 +34,8 @@ for fragment in Parser(media):
 
 ## License
 
-See the [LICENSE](LICENSE) file.
+See the LICENSE file.
 
-This library is licensed under the MIT No Attribution License and is a derivative of “
-[Amazon Kinesis Video Streams Consumer Library For Python](https://github.com/aws-samples/amazon-kinesis-video-streams-consumer-library-for-python)
-” by Dean Colcott, used under MIT-0.
+This package is licensed under the MIT No Attribution License and is a derivative of
+"[Amazon Kinesis Video Streams Consumer Library For Python](https://github.com/aws-samples/amazon-kinesis-video-streams-consumer-library-for-python)"
+by Dean Colcott, used under MIT-0.
